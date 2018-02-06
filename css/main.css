@@ -1,0 +1,106 @@
+body {
+  width: 1280px;
+  margin: 0 auto; }
+  body nav {
+    width: 1152px;
+    margin: 0 auto;
+    height: 105px;
+    background-color: #022929; }
+    body nav #navbarResponsive {
+      float: left;
+      margin-left: 10px;
+      margin-top: 16px;
+      box-sizing: border-box; }
+      body nav #navbarResponsive ul > li {
+        width: 102px;
+        height: 30px;
+        text-align: center;
+        box-sizing: border-box;
+        margin-right: 2px;
+        cursor: pointer; }
+        body nav #navbarResponsive ul > li a {
+          display: block;
+          height: 100%;
+          background-color: #066666;
+          color: #fff;
+          text-decoration: none; }
+        body nav #navbarResponsive ul > li div {
+          background-color: #066666;
+          margin: 0;
+          width: 148px; }
+          body nav #navbarResponsive ul > li div button {
+            color: #fff;
+            background-color: #066666;
+            cursor: pointer;
+            white-space: inherit;
+            font-size: 14px;
+            padding: 0 0 0 5px;
+            float: left; }
+    body nav div > a.navbar-brand {
+      margin-top: 15px; }
+  body #vertical_logo {
+    z-index: 10000;
+    position: absolute;
+    top: 130px;
+    position: fixed; }
+  body div.container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 9px;
+    padding-left: 9px; }
+    body div.container div div.left-content {
+      background-color: #066666;
+      padding: 10px; }
+      body div.container div div.left-content div.content {
+        background-color: #1e3a3a;
+        height: 100%; }
+        body div.container div div.left-content div.content h1 {
+          color: #fff;
+          padding-left: 30px;
+          padding-top: 28px; }
+        body div.container div div.left-content div.content p {
+          margin: 16px 24px;
+          color: #fff; }
+    body div.container div div.right-content {
+      background-color: #055252;
+      padding: 10px; }
+      body div.container div div.right-content div.content_aside {
+        background-color: #022929;
+        height: 100%; }
+        body div.container div div.right-content div.content_aside h5 {
+          color: #fff; }
+        body div.container div div.right-content div.content_aside div div ul {
+          display: inherit; }
+          body div.container div div.right-content div.content_aside div div ul li {
+            margin: 0 8px; }
+        body div.container div div.right-content div.content_aside div div div ul li {
+          margin: 0; }
+          body div.container div div.right-content div.content_aside div div div ul li a {
+            text-decoration: underline;
+            color: #fff; }
+  body #carouselExampleIndicators {
+    display: table;
+    margin: auto; }
+  body #carouselExampleIndicators ol {
+    bottom: -35px; }
+    body #carouselExampleIndicators ol li {
+      border-radius: 100%;
+      height: 5px;
+      width: 5px; }
+  body footer {
+    width: 1152px;
+    margin: 0 auto;
+    height: 43px;
+    background-color: #066666; }
+    body footer div div {
+      display: inline-block;
+      padding-top: 10px; }
+    body footer div ul {
+      display: inline-block;
+      float: right;
+      padding-top: 10px; }
+      body footer div ul li {
+        display: inline-block;
+        color: #fff;
+        text-decoration: underline;
+        margin-right: 15px; }
